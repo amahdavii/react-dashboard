@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/**** Import Yekanbakh Font *****/
+
+@font-face {
+  font-family: "yekanbakh";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Yekan\ Bakh\ Fa\ 04\ Regular.eot?") format("eot"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 04\ Regular.woff") format("woff"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 04\ Regular.ttf") format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "yekanbakh";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/Yekan\ Bakh\ Fa\ 05\ Medium.eot?") format("eot"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 05\ Medium.woff") format("woff"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 05\ Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "yekanbakh";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/Yekan\ Bakh\ Fa\ 06\ Bold.eot?") format("eot"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 06\ Bold.woff") format("woff"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 06\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "yekanbakh";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/Yekan\ Bakh\ Fa\ 07\ Heavy.eot?") format("eot"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 07\ Heavy.woff") format("woff"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 07\ Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "yekanbakh";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/Yekan\ Bakh\ Fa\ 08\ Fat.eot?") format("eot"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 08\ Fat.woff") format("woff"),
+    url("./fonts/Yekan\ Bakh\ Fa\ 08\ Fat.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "yekanbakh-fd";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/Yekan\ Bakh\ FaNum\ 07\ Heavy.eot?") format("eot"),
+    url("./fonts/Yekan\ Bakh\ FaNum\ 07\ Heavy.woff") format("woff"),
+    url("./fonts/Yekan\ Bakh\ FaNum\ 07\ Heavy.ttf") format("truetype");
+}
+
+/**** Initial Setup *****/
+
+body {
+  font-family: yekanbakh;
+  font-size: 16px;
 }
